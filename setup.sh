@@ -1,7 +1,6 @@
 #!/bin/bash
 
 direc=${PWD##*/}
-echo $direc
 
 if [ "$direc" != "pca-lens-finder" ]
 then
