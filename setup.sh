@@ -2,6 +2,8 @@
 
 direc=${PWD##*/}
 
+echo "This might take some time."
+
 if [ "$direc" != "pca-lens-finder" ]
 then
 	echo "Go to the pca-lens-finder folder and execute the script."
