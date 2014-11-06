@@ -1,7 +1,11 @@
 function outputImage = reconstruct_image(origImage, basis)
 
+% Reconstruct an image given the basis and coefficients.
+% Expects: MATLAB array, and a basis array
+% Returns: MATLAB array
+
 coeffs = transpose(origImage(:))*basis;
-[elements basisSize] = size(basis);
+[elements ~] = size(basis);
 
 componentImages = basis .* kron(coeffs, ones([elements 1]));
 

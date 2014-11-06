@@ -1,0 +1,11 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}
+\BOOKMARK [1][-]{section.2}{Method}{}
+\BOOKMARK [1][-]{section.3}{Implementation}{}
+\BOOKMARK [2][-]{subsection.3.1}{Iteration 1}{section.3}
+\BOOKMARK [2][-]{subsection.3.2}{Iteration 2}{section.3}
+\BOOKMARK [1][-]{section.4}{Iteration 3}{}
+\BOOKMARK [2][-]{subsection.4.1}{Corrections to be Applied in the Pipeline}{section.4}
+\BOOKMARK [2][-]{subsection.4.2}{Denoising}{section.4}
+\BOOKMARK [2][-]{subsection.4.3}{Segmentation and Detection of Rings}{section.4}
+\BOOKMARK [1][-]{section.5}{Conclusion}{}
+\BOOKMARK [1][-]{section.6}{Future Scope and Problems With The Approach}{}
