@@ -93,13 +93,14 @@ One example of a false positive (probably because of insufficiency of eigenvecto
 Among the 111 images taken here, 19 had lensing features and 3 were ambiguous spirals. Visually inspecting the output yielded 16 lenses whose rings were detected correctly and 6 false positives. Tuning the number of eigenvectors will resolve this problem.
 
 \subsection{Corrections to be Applied in the Pipeline}
-We will correct for the centering and scale here. Standard methods are also available for correcting rotations as well. We corrected centering by shifting the brightest pixel to the center of the image and excluding everything outside a threshold radius.
+We will correct for the centering and scale here. Standard methods are also available for correcting rotations as well. \textit{Fill this up}
 
 \subsection{Denoising}
-Denoising was done using an Anscombe transform.
+\textit{Fill this up}
 
 \subsection{Segmentation and Detection of Rings}
 Once we do source subtraction we must segment the residual and check if we have a valid ring or not. The residuals we get may as well be reconstruction errors or noise.
+The method we used for segmentation of residuals is the following: \textit{Fill this up}
 
 \section{Conclusion}
 Finding lenses in astronomical databases is an extremely non-trivial task, and in this project we have managed to scrape the easier lenses to find off. The problem of companions remains unsolved in our implementation. However, the idea is a good start to modelling galaxies on an observational level instead of traditional theoretical model-fitting approaches. A possible workaround to the companion problem and some areas to improve upon in this approach are suggested in the next section.
